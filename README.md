@@ -4,6 +4,7 @@ A simple, lightweight Neovim config with manual plugin setups and custom keymaps
 
 #Preview
 ![Screenshot](asset/screenshot.png)
+![](asset/screenshot1.png)
 ---
 
 ## Features
