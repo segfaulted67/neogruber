@@ -10,3 +10,6 @@
 [submodule "pack/plugins/start/gruber-darker"]
 	path = pack/plugins/start/gruber-darker
 	url = https://github.com/blazkowolf/gruber-darker.nvim.git
+[submodule "pack/plugins/start/lualine.nvim"]
+	path = pack/plugins/start/lualine.nvim
+	url = https://github.com/nvim-lualine/lualine.nvim.git
