@@ -33,4 +33,4 @@ A simple, lightweight Neovim config with manual plugin setups and custom keymaps
 Simply clone this repo to your Neovim config directory:
 
 ```bash
-git clone https://github.com/segfaulted67/neogruber.git ~/.config/nvim
+git clone --recursive https://github.com/segfaulted67/neogruber.git ~/.config/nvim
