@@ -36,4 +36,17 @@ A simple, lightweight Neovim config with manual plugin setups and custom keymaps
 Simply clone this repo to your Neovim config directory:
 
 ```bash
-git clone --recursive https://github.com/segfaulted67/neogruber.git ~/.config/nvim
+git clone --recursive https://github.com/segfaulted67/neogruber.git ~/.config
+```
+and then rename the folder name from neogruber to nvim in the .config/
+```bash
+cd ~/.config
+mv neogruber nvim
+```
+if there is a existing nvim config then back that up first using
+```bash
+cd ~/.config
+mv nvim nvim.bk
+git clone --recursive https://github.com/segfaulted67/neogruber.git ~/.config
+mv neogruber nvim
+```
