@@ -7,3 +7,6 @@
 [submodule "pack/plugins/start/fzf.vim"]
 	path = pack/plugins/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
+[submodule "pack/plugins/start/gruber-darker"]
+	path = pack/plugins/start/gruber-darker
+	url = https://github.com/blazkowolf/gruber-darker.nvim.git
