@@ -2,6 +2,8 @@
 
 A simple, lightweight Neovim config with manual plugin setups and custom keymaps, optimized for efficient editing and navigation.
 
+#Preview
+![Screenshot](asset/screenshot.png)
 ---
 
 ## Features
