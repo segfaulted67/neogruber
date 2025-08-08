@@ -1,0 +1,3 @@
+[submodule "pack/plugins/start/Comment.nvim"]
+	path = pack/plugins/start/Comment.nvim
+	url = https://github.com/numToStr/Comment.nvim.git
