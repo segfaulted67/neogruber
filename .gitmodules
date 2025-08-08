@@ -22,3 +22,6 @@
 [submodule "pack/catppuccin/start/catppuccin"]
 	path = pack/catppuccin/start/catppuccin
 	url = https://github.com/catppuccin/nvim.git
+[submodule "pack/lsp/start/nvim-lspconfig"]
+	path = pack/lsp/start/nvim-lspconfig
+	url = https://github.com/neovim/nvim-lspconfig.git
