@@ -2,12 +2,13 @@
 -- vim.cmd.colorscheme 'habamax'
 --
 --  TIP: Disable arrow keys in normal mode and insert mode
-vim.keymap.set({ 'n', 'i' }, '<left>', function() vim.cmd('echo "Use h to move!!"') end)
-vim.keymap.set({ 'n', 'i' }, '<right>', function() vim.cmd('echo "Use l to move!!"') end)
-vim.keymap.set({ 'n', 'i' }, '<up>', function() vim.cmd('echo "Use k to move!!"') end)
-vim.keymap.set({ 'n', 'i' }, '<down>', function() vim.cmd('echo "Use j to move!!"') end)
+vim.keymap.set('n', '<left>', function() vim.cmd('echo "Use h to move!!"') end)
+vim.keymap.set('n', '<right>', function() vim.cmd('echo "Use l to move!!"') end)
+vim.keymap.set('n', '<up>', function() vim.cmd('echo "Use k to move!!"') end)
+vim.keymap.set('n', '<down>', function() vim.cmd('echo "Use j to move!!"') end)
 
--- Disabeling mouse 
+-- Disable mouse 
+-- If you want to enable mouse delete this line
 vim.o.mouse = ""
 
 vim.g.mapleader = ' '
