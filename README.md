@@ -11,7 +11,7 @@ A simple, lightweight Neovim config with manual plugin setups and custom keymaps
 
 - **Theme:** Uses the `gruber-darker` colorscheme by default. Optionally switch to `catppuccin-mocha`.
 - **Keymaps:**
-  - Arrow keys disabled in normal and insert modes to promote use of `hjkl`.
+  - Arrow keys disabled in normal to promote use of `hjkl`.
   - Custom leader key (`Space`) shortcuts for file browsing, buffer switching, searching, and more.
 - **Visuals:**
   - Relative and absolute line numbers enabled.
